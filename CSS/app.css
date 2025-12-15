@@ -1,0 +1,65 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #0f172a, #111827);
+    color: #fff;
+}
+
+.text-accent,
+.btn-outline-accent {
+    color: #2dd4bf !important;
+}
+
+.btn-accent {
+    background-color: #2dd4bf !important;
+    border-color: #2dd4bf !important;
+    color: #111827;
+}
+
+.btn-outline-accent {
+    border-color: #2dd4bf !important;
+}
+
+.btn-outline-accent:hover {
+    background-color: #2dd4bf !important;
+    color: #111827 !important;
+}
+
+.badge-accent {
+    background-color: rgba(45, 212, 191, .15);
+    color: #2dd4bf;
+    padding: 0.5em 0.7em;
+    font-weight: 500;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #2dd4bf;
+}
+
+.card,
+.p-4 {
+    border-color: #3f454f !important;
+}
+
+.presentacion {
+    padding-bottom: 0 !important;
+}
+
+.social-bar {
+    border-top: 5px solid #2dd4bf;
+    height: 15px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.social-bar .d-flex {
+    background: linear-gradient(135deg, #0f172a, #111827);
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    position: relative;
+    top: -25px;
+}
+
+hr {
+    border-color: rgba(45, 212, 191, 0.3) !important;
+}
